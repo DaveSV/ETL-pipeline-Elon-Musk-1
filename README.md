@@ -3,7 +3,8 @@
 About
 ETL pipeline Comprendiendo a Elon Musk por sus tweets Parte 1
 
-Creación de un conjunto de datos de Twitter con Pandas en Python utilizando la biblioteca Snscrape. Este código busca tweets de Elon Musk desde el 1 de enero de 2021 hasta el 1 de enero de 2022 y guarda los resultados en un archivo CSV llamado "tweets.csv".
+Creación de un conjunto de datos de Twitter con Pandas en Python utilizando la biblioteca Snscrape. Persistencia de datos en MySQL.
+Este código busca tweets de Elon Musk desde el 1 de enero de 2021 hasta el 1 de enero de 2022 y guarda los resultados en un archivo CSV llamado "tweets.csv".
 
 Instalar Snscrape y Pandas utilizando pip en tu entorno virtual de Python:
 
