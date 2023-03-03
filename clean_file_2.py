@@ -3,7 +3,7 @@ import re
 from unidecode import unidecode
 
 # Cargar el archivo CSV en un dataframe
-df = pd.read_csv('tweets.csv')
+df = pd.read_csv('tweets_limpios.csv')
 
 # Eliminar los tweets duplicados
 df.drop_duplicates(inplace=True)
@@ -27,6 +27,6 @@ def clean_tweet(tweet):
 df['tweet'] = df['tweet'].apply(clean_tweet)
 
 # Guardar el dataframe de tweets limpios en un nuevo archivo CSV
-df.to_csv('tweets_limpios.csv', index=False)
+df.to_csv('tweets_limpios_final.csv', index=False)
 
-print("Los tweets limpios han sido guardados en el archivo 'tweets_limpios.csv'.")
+print("Los tweets limpios han sido guardados en el archivo 'tweets_limpios_final.csv'.")
