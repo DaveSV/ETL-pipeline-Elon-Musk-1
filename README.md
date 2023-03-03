@@ -59,6 +59,9 @@ Asegúrate de cambiar los valores de host, user y password en la función mysql.
 
 Este script carga los datos del archivo CSV en un dataframe de Pandas y luego se conecta a la base de datos MySQL utilizando la librería mysql-connector-python. A continuación, se crea un cursor para ejecutar comandos SQL y se inserta cada tweet en la tabla de la base de datos utilizando un bucle for y la función cursor.execute(). Finalmente, se cierra la conexión con la base de datos y se imprime un mensaje para confirmar que los datos se han guardado correctamente.
 
+![image](https://user-images.githubusercontent.com/29576337/222815627-471c9ecd-ccbc-4fa4-9590-93b5d5a9b839.png)
+
+
 Espero que esto te ayude a guardar los datos del archivo "tweets_limpios.csv" en una base de datos MySQL.
 
 En la Parte 2 de este tutorial avanzaremos a programar, monitorear y administrar todo el flujo de trabajo de estos datos con Airflow.
