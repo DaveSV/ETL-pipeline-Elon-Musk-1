@@ -65,3 +65,5 @@ Este script carga los datos del archivo CSV en un dataframe de Pandas y luego se
 Espero que esto te ayude a guardar los datos del archivo "tweets_limpios_final.csv" en una base de datos MySQL.
 
 En la Parte 2 de este tutorial avanzaremos a programar, monitorear y administrar todo el flujo de trabajo de estos datos con Airflow.
+
+En la Parte 3. analizaremos un Análisis de Sentimientos sobre el conjunto de datos y registrode la Base de Datos
